@@ -1,0 +1,25 @@
+{
+	"name": "nextjs-i18n-static-page-starter",
+	"version": "0.1.0",
+	"author": "Marcel Zurreck",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"export": "next build && next export"
+	},
+	"dependencies": {
+		"flat": "^5.0.2",
+		"get-user-locale": "^1.4.0",
+		"next": "^10.0.0",
+		"postcss": "^8.1.7",
+		"react": "^16.13.1",
+		"react-dom": "16.13.1",
+		"react-intl": "^5.10.6"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^3.0.0",
+		"autoprefixer": "^10.0.4",
+		"tailwindcss": "^2.0.1"
+	}
+}
